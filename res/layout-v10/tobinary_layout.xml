@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/switch0"
+            android:paddingTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.125"
+            android:text="B0"
+            android:textOff="0"
+            android:textOn="1" />
+
+        <CheckBox
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.125"
+            android:text="B1"
+            android:textOff="0"
+            android:textOn="1" />
+
+        <CheckBox
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.125"
+            android:text="B2"
+            android:textOff="0"
+            android:textOn="1" />
+
+        <CheckBox
+            android:id="@+id/switch3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.125"
+            android:text="B3"
+            android:textOff="0"
+            android:textOn="1" />
+
+        <CheckBox
+            android:id="@+id/switch4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.125"
+            android:text="B4"
+            android:textOff="0"
+            android:textOn="1" />
+
+        <CheckBox
+            android:id="@+id/switch5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.125"
+            android:text="B5"
+            android:textOff="0"
+            android:textOn="1" />
+
+        <CheckBox
+            android:id="@+id/switch6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.125"
+            android:text="B6"
+            android:textOff="0"
+            android:textOn="1" />
+
+        <CheckBox
+            android:id="@+id/switch7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.125"
+            android:text="B7"
+            android:textOff="0"
+            android:textOn="1" />
+    </LinearLayout>
+
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:orientation="vertical" >
+
+           <TextView
+               android:id="@+id/resultText"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginBottom="20dp"
+               android:layout_marginTop="20dp"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:text="0"
+               android:textSize="@dimen/textSize" />
+
+    </LinearLayout>
+
+</LinearLayout>
